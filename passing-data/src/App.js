@@ -147,3 +147,25 @@ usersByMovie={this.usersByMovie}
 }
 
 export default App;
+
+
+// {profiles.map((profile)=>{
+//   const userName = users[profile.userID].name;
+// const favMovieName = movies[profile.favoriteMovieID].name;
+
+// return (
+//   /*
+//   You need to include the `key` property every time you create list
+//   elements in React. The key property is necessary because it enables
+//   React to perform reconciliation
+//   (https://reactjs.org/docs/reconciliation.html)
+//   */
+//   <li key={profile.id}>
+//     {/* If the syntax below looks unfamiliar, please take the following
+//   course:
+//   https://www.udacity.com/course/es6-javascript-improved--ud356
+//     */}
+//     <p>{`${userName}'s favorite movie is "${favMovieName}."`}</p>
+//   </li>
+// );
+// })}
